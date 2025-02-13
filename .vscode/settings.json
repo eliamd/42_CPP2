@@ -1,0 +1,7 @@
+{
+	"files.associations": {
+		"*.sqlite": "sqlite",
+		"iostream": "cpp",
+		"string": "cpp"
+	}
+}

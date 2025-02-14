@@ -6,7 +6,7 @@
 /*   By: edetoh <edetoh@student.42lehavre.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/13 13:03:22 by edetoh            #+#    #+#             */
-/*   Updated: 2025/02/14 12:21:40 by edetoh           ###   ########.fr       */
+/*   Updated: 2025/02/14 12:20:40 by edetoh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,12 +24,21 @@ private:
 public:
 	/* ------------------------------- Constructor ------------------------------ */
 	Fixed();
+	Fixed(const int integer);
+	Fixed(const float float_nbr);
 	Fixed(const Fixed &copy);
 	Fixed& operator=(const Fixed &copy);
 	~Fixed();
 	/* -------------------------------- Functions ------------------------------- */
+    float toFloat( void ) const;
+	int toInt( void ) const;
 	int getRawBits( void ) const;
 	void setRawBits( int const raw );
+
+	friend std::ostream &operator<<(std::ostream &os, const Fixed &fixed) {
+		os << fixed.toFloat();
+		return os;
+	}
 };
 
 #endif

@@ -1,1 +1,6 @@
+.vscode/
+.idea/
+*.o
+*.out
+/.idea/
 /.vscode/

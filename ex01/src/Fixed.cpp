@@ -6,13 +6,14 @@
 /*   By: edetoh <edetoh@student.42lehavre.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/13 16:48:55 by edetoh            #+#    #+#             */
-/*   Updated: 2025/02/14 12:22:11 by edetoh           ###   ########.fr       */
+/*   Updated: 2025/03/31 13:37:08 by edetoh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/Fixed.hpp"
 #include <iostream>
 #include <string>
+#include <math.h>
 
 
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ CONSTRUCTOR ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

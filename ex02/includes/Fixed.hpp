@@ -6,7 +6,7 @@
 /*   By: edetoh <edetoh@student.42lehavre.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/13 13:03:22 by edetoh            #+#    #+#             */
-/*   Updated: 2025/02/14 12:20:40 by edetoh           ###   ########.fr       */
+/*   Updated: 2025/03/31 17:02:57 by edetoh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,10 +56,7 @@ public:
 	static Fixed max( Fixed &op1, Fixed &op2);
 	static Fixed max(const Fixed &op1, const Fixed &op2);
 
-	friend std::ostream &operator<<(std::ostream &os, const Fixed &fixed) {
-		os << fixed.toFloat();
-		return os;
-	}
 };
+std::ostream &operator<<(std::ostream &os, const Fixed &fixed);
 
 #endif

@@ -6,13 +6,14 @@
 /*   By: edetoh <edetoh@student.42lehavre.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/13 16:48:55 by edetoh            #+#    #+#             */
-/*   Updated: 2025/02/14 12:22:02 by edetoh           ###   ########.fr       */
+/*   Updated: 2025/03/31 17:00:38 by edetoh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/Fixed.hpp"
 #include <iostream>
 #include <string>
+#include "Fixed.hpp"
 
 Fixed::Fixed()
 {
@@ -44,3 +45,4 @@ void Fixed::setRawBits(int const raw)
 	std::cout << "setRawBits member function called" << std::endl;
 	this->fixedPoint = raw;
 }
+

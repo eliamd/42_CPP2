@@ -6,7 +6,7 @@
 /*   By: edetoh <edetoh@student.42lehavre.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/13 16:48:55 by edetoh            #+#    #+#             */
-/*   Updated: 2025/03/31 13:41:41 by edetoh           ###   ########.fr       */
+/*   Updated: 2025/03/31 17:02:44 by edetoh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -165,4 +165,10 @@ Fixed Fixed::max(Fixed &op1, Fixed &op2)
 Fixed Fixed::max(const Fixed &op1, const Fixed &op2)
 {
 	return op1 > op2 ? op1 : op2;
+}
+
+std::ostream &operator<<(std::ostream &os, const Fixed &fixed)
+{
+	os << fixed.getRawBits();
+	return (os);
 }

@@ -6,7 +6,7 @@
 /*   By: edetoh <edetoh@student.42lehavre.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/11 15:04:41 by edetoh            #+#    #+#             */
-/*   Updated: 2025/03/31 13:33:31 by edetoh           ###   ########.fr       */
+/*   Updated: 2025/03/31 16:07:55 by edetoh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 int main( void )
 {
 	Fixed a;
-	a.setRawBits(5);
+	// a.setRawBits(5);
 	Fixed b( a );
 	Fixed c;
 	c = b;

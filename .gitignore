@@ -1,6 +1,7 @@
-.vscode/
-.idea/
+.vscode
+.idea
 *.o
 *.out
-/.idea/
-/.vscode/
+/.idea
+/.vscode
+.DS_Store

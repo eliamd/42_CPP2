@@ -6,7 +6,7 @@
 /*   By: edetoh <edetoh@student.42lehavre.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/13 13:03:22 by edetoh            #+#    #+#             */
-/*   Updated: 2025/03/31 17:02:05 by edetoh           ###   ########.fr       */
+/*   Updated: 2025/04/02 11:20:18 by edetoh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define FIXED_HPP
 #include <iostream>
 #include <string>
+#define DEBUG 0
 
 class Fixed
 {

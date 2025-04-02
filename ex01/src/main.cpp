@@ -6,7 +6,7 @@
 /*   By: edetoh <edetoh@student.42lehavre.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/11 15:04:41 by edetoh            #+#    #+#             */
-/*   Updated: 2025/02/14 12:09:26 by edetoh           ###   ########.fr       */
+/*   Updated: 2025/04/02 11:24:58 by edetoh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,9 @@ int main( void ) {
 	Fixed const b( 10 );
 	Fixed const c( 42.42f );
 	Fixed const d( b );
+
 	a = Fixed( 1234.4321f );
+
 	std::cout << "a is " << a << std::endl;
 	std::cout << "b is " << b << std::endl;
 	std::cout << "c is " << c << std::endl;
